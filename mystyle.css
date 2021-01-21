@@ -1,1 +1,41 @@
-hellloo
+/*header background color yellow*/
+.header {
+  background-color: yellow; 
+}
+
+/* soccer paragraphs background blue */
+p.soccer {
+  background-color: blue;
+}
+
+/*name id background red*/
+#name {
+  background-color: #ff0000;
+}
+
+/* all background colors white */
+* {
+  background-color: rgb(255, 255, 255);
+}
+
+p {
+  background-color: rgb(255, 0, 0, .1); 
+}
+
+a[colorLink] {
+  background-color: hsl(120, 100%, 10%);
+}
+
+a:hover {
+  color: hsla(100, 100%, 10%, 0.3);
+}
+
+li.soccer {
+  border-style: solid; 
+  border-width: medium;
+  border-color: red;
+  border-radius: 5px;
+}
+
+
+
