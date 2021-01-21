@@ -1,11 +1,14 @@
 /*header background color yellow*/
 .header {
-  background-color: yellow; 
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 /* soccer paragraphs background blue */
 p.soccer {
-  background-color: blue;
+  color: blue;
 }
 
 /*name id background red*/
@@ -52,10 +55,24 @@ li.hobby {
   width: 300px;
   border: 15px solid red;
   padding: 50px;
-  margin: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 
+pre {
+   margin: 25px 50px 75px 100px;
+   padding: 25px 50px 75px 100px;
+}
 
+svg {
+  margin: auto;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
 
 
 
