@@ -37,5 +37,26 @@ li.soccer {
   border-radius: 5px;
 }
 
+li {
+  font-size: 2em; 
+}
+
+h1 {
+  font-size: 3em; 
+}
+
+li.hobby {
+  border-style: solid;
+  font-size: 1em;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+
 
 
