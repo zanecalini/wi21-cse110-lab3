@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
+  <style>
+    .flex-container{
+      display: flex;
+      background-color: red;
+    }
+    .flex-container > head{
+       background-color: blue;
+       flex-direction: column;
+       flex-wrap: nowrap;
+    }
+   </style>
+    
   
-  <head>
+  <head class="flex-container">
     <link rel="stylesheet" href="mystyle.css">
     <title> Zane's User Page</title>
     <meta name="author" content="Zane Calini">
