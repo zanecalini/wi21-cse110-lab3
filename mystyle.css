@@ -9,6 +9,7 @@
 /* soccer paragraphs background blue */
 p.soccer {
   color: blue;
+  max-width: 50%
 }
 
 /*name id background red*/
@@ -32,12 +33,16 @@ a[colorLink] {
 a:hover {
   color: hsla(100, 100%, 10%, 0.3);
 }
+a:active {
+  background-color: yellow;
+}
 
 li.soccer {
   border-style: solid; 
   border-width: medium;
   border-color: red;
   border-radius: 5px;
+  min-width: 50%;
 }
 
 li {
@@ -59,11 +64,13 @@ li.hobby {
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
+  position: relative;
 }
 
 pre {
    margin: 25px 50px 75px 100px;
    padding: 25px 50px 75px 100px;
+   position: static;
 }
 
 svg {
@@ -72,7 +79,18 @@ svg {
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
+  
 }
+
+p.love {
+  display: none; 
+}
+
+p.computers{
+  display: inline; 
+}
+
+
 
 
 
