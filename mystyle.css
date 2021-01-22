@@ -90,6 +90,19 @@ p.computers{
   display: inline; 
 }
 
+tr td {
+  background-color: yellow;
+}
+
+tr + td {
+  background-color: blue;
+}
+
+div ~ p {
+  background-color: yellow; 
+}
+
+  
 
 
 
